@@ -8,38 +8,49 @@
 <body>
     <header>
         <nav>
-            <h3><img src="https://mohdazzam.github.io/Lab-03b/img/acmilan.png" alt="Milan" width="25px" height="25px"></h3>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="#">Support Us</a></li>
+            <h3 style="text-align:center"><img src="https://mohdazzam.github.io/Lab-03b/img/acmilan.png" alt="Milan"
+                    width="25px" height="25px"></h3>
+            <ul style="background-color:blue; list-style-type: none; ">
+                <li style="display: inline-block"><a style="text-decoration:none; color:white" href="#home">Home</a>
+                </li>
+                <li style="display: inline-block"><a style="text-decoration:none; color:white" href="aboutus.html">About
+                        Us</a></li>
+                <li style="display: inline-block"><a style="text-decoration:none; color:white" href="#">Support Us</a>
+                </li>
             </ul>
         </nav>
     </header>
     <hr>
     <main id="home">
-        <img src="https://mohdazzam.github.io/Lab-03b/img/1197144164.jpg.0.jpg" alt="Milan" width="300px" height="300px" />
+        <button onclick="Age()">Tell Us your Age</button> <br> <br>
+        <img src="https://mohdazzam.github.io/Lab-03b/img/1197144164.jpg.0.jpg" alt="Milan" width="300px"
+            height="300px" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="https://mohdazzam.github.io/Lab-03b/img/ACMilan-Bologna.jpg" alt="Milan" width="300px" height="300px" />
+        <img src="https://mohdazzam.github.io/Lab-03b/img/ACMilan-Bologna.jpg" alt="Milan" width="300px"
+            height="300px" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="https://mohdazzam.github.io/Lab-03b/img/ACMilan-Bologna.jpg" alt="Milan" width="300px" height="300px" /><br>
-      
+        <img src="https://mohdazzam.github.io/Lab-03b/img/ACMilan-Bologna.jpg" alt="Milan" width="300px"
+            height="300px" /><br>
+
         <br>
-        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quia laudantium praesentium cumque
+        <article id="article" onclick="changeColor()">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quia laudantium praesentium cumque
             quaerat quisquam corporis suscipit iusto eum, nobis, qui ratione veritatis! Deleniti quod obcaecati eveniet
             optio dolores! Et.</article>
+        <button onclick="myFunction()">Try it</button>
     </main>
     <br>
 
     <hr>
     <footer>
         <p>
-            Copy Right 2021 &copy; 
+            Copy Right 2021 &copy;
         </p>
         <a href="https://xbid.github.io/structure-webpage/">Abdallah</a>
         <a href="https://mohammad-adnan-alazzam.github.io/lap3b/">Mohammad Adnan Alazzam</a>
-        <a href="https://naji-albatayneh.github.io/lab03b/index.html">Naji</a>  
+        <a href="https://naji-albatayneh.github.io/lab03b/index.html">Naji</a>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
