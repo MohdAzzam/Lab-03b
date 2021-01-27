@@ -6,7 +6,7 @@ if (userName != null) {
 } else {
   alert("Welcome user");
 }
-
+document.write('<h1>'+ 'Welcome '+userName+'</h1>'+'<br>');
 function myFunction() {
   var s = confirm("Confirm it");
   if (s == true) {
