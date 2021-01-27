@@ -38,12 +38,16 @@ function myFunction() {
 
 function Age() {
   var age = prompt("Your Age");
-
-  if (age < 18) {
-    alert("Hello Teenger");
-  } else {
-    alert("Hello Adults");
-  }
+if (isNaN(age) || age <= 0 || age > 100){
+    alert('please enter a valid number')
+    Age()
+}else{
+    if (age < 18) {
+      alert("Hello Teenger");
+    } else {
+      alert("Hello Adults");
+    }
+}
 }
 function changeColor(){
     var articleColor=prompt('in Which Color you want to see the Article');
