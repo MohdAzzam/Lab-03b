@@ -54,3 +54,20 @@ function changeColor(){
     document.getElementById("article").style.color = articleColor;
 
 }
+
+
+function CatCount(){
+  var count =prompt('How Many Cat Do You have');
+  if(isNaN(count)){
+     CatCount()
+  } else {
+    var i=1;
+    while(count!=0){
+      document.write('<h1>'+i+'</h1>');
+      i++;
+      document.write('<img style="width:25px;" src="https://mohdazzam.github.io/Lab-03b/img/acmilan.png" />');
+      count--;
+      
+    }
+  }
+}
