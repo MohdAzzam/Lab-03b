@@ -65,7 +65,7 @@ function CatCount(){
     while(count!=0){
       document.write('<h1>'+i+'</h1>');
       i++;
-      document.write('<img style="width:25px;" src="https://mohdazzam.github.io/Lab-03b/img/cat.jpg" />');
+      document.write('<img style="width:250px;height:250px" src="https://mohdazzam.github.io/Lab-03b/img/cat.jpg" />'+'<br>');
       count--;
       
     }
